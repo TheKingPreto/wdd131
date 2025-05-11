@@ -73,6 +73,14 @@ main {
     margin-top: 1rem;
 }
 
+.profile-img {
+    width: 60%; 
+    height: auto;
+    display: block;
+    margin: 1rem auto 0; 
+    border-radius: 8px;
+}
+
 footer {
     font-size: 0.9rem;
     margin-top: 2rem;
