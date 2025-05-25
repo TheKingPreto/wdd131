@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brazil - Culture & Weather</title>
+  <link rel="stylesheet" href="styles/place.css" />
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Brazil</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <picture>
+        <source srcset="images/hero-small.webp" media="(max-width: 600px)" />
+        <source srcset="images/hero-medium.webp" media="(max-width: 1000px)" />
+        <img src="images/hero-large.webp" alt="Scenic view of Brazil" />
+      </picture>
+    </section>
+
+    <section class="info">
+      <h2>About Brazil</h2>
+      <p>Brazil is the largest country in South America, known for its rich culture, beautiful landscapes, and vibrant festivals like Carnival. It is home to the Amazon rainforest, iconic beaches, and historical cities like Salvador and Rio de Janeiro.</p>
+    </section>
+
+    <section class="weather">
+      <h2>Weather <span class="weather-icon"></span></h2>
+      <p><strong>Temperature:</strong> <span id="temp">24</span> °C</p>
+      <p><strong>Wind Speed:</strong> <span id="wind">10</span> km/h</p>
+      <p><strong>Wind Chill:</strong> <span id="windchill">Calculating...</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Brazil Showcase</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
