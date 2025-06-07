@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+  font-family: 'Verdana', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  color: #17408B; 
+}
+
+ul {
+  list-style: disc;
+  padding-left: 2rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.wireframes img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
